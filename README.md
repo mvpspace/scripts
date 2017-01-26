@@ -11,7 +11,7 @@ Input the remote server password if asked.
 
 [Works with Digital Ocean droplets (tested). Should work with any remote server accessible via ssh]
 
-You may also deploy to your local machine to see how things are working using `bash path/to/deployitlocal.sh`[1]
+You may also deploy to your local machine to see how things are working using `bash path/to/deployitlocal.sh`
 
 Go to http://localhost:3000
 
@@ -20,7 +20,7 @@ Go to http://localhost:3000
 
 Input the server password if asked.
 
-You may also deploy to your local machine to see how things are working using `bash path/to/with-nginx/deployitlocal.sh`[1]
+You may also deploy to your local machine to see how things are working using `bash path/to/with-nginx/deployitlocal.sh`
 
 Go to http://localhost
 
@@ -35,4 +35,4 @@ To reset the mongo db use the following script inside `path/to/resetremotedb.sh`
 or simply from the app root folder:
 `bash /path/to/resetremotedb.sh`
 
-(1) Make sure you have docker installed on either on your machine or remote server depending on where you are deploying
+**NOTE**: Make sure you have docker installed on either on your machine or remote server depending on where you are deploying
